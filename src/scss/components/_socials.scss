@@ -1,0 +1,15 @@
+.socials {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 175px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.socials-link {
+	color: $color_purple;
+	font-size: 15px;
+}

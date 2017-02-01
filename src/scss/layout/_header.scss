@@ -9,3 +9,22 @@
 	display: block;
 	margin-top: 90px;
 }
+
+.header-nav {
+	display: flex;
+	margin-top: 100px;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 420px;
+}
+
+.nav-link {
+	color: $color_white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.active {
+	color: $color_purple;
+	font-size: 22px;
+}

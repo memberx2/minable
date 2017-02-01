@@ -33,7 +33,7 @@
    ========================================================================== */
 @import "layout/common";
 @import "layout/header";
-// @import "layout/hero";
+@import "layout/hero";
 @import "layout/main";
 @import "layout/footer";
 @import "layout/sections";
@@ -47,6 +47,7 @@
 @import "components/forms";
 @import "components/navigations";
 @import "components/links";
+@import "components/socials";
 
 /* Utilities
    ========================================================================== */
