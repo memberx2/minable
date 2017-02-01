@@ -18,13 +18,16 @@
                 {{ l_header.render() }}
                 <section class="portfolio">
                     <div class="portfolio-bg">
+                        <a class="icon-cancel" href="showcase.html"></a>
                         {{ p_header.render() }}
                         {{ p_portfolio_gallery.render() }}
                         {{ p_header.render() }}
-                        <p class="portfolio-share">share this work</p>
+                        <div class="bottom-portfolio">
+                            <p class="portfolio-share">share this work</p>
+                            {{ p_socials.render() }}
+                        </div>
                     </div>
-                </section>
-                {{ p_socials.render() }}
+                </section>               
             </div>
         </div>
         

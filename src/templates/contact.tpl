@@ -18,8 +18,10 @@
                     <h2 class="contact-title">contact</h2>
                     <p class="number">+90 539 330 300 00</p>
                     <p class="email">contact@signakro.com</p>
+                    <div class="as-bottom">
+                        {{ p_socials.render() }}
+                    </div>
                 </section>
-                {{ p_socials.render() }}
             </div>
         </div>
 

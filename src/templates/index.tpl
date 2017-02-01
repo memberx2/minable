@@ -16,7 +16,7 @@
             <div class="inner">
                 {{ l_header.render() }}
                 {{ l_hero.render() }}
-                <div class="bottom-line">
+                <div class="bottom-line bottom-index">
                     <a class="showcase-link" href="showcase.html">view showcase</a>
                     {{ p_socials.render() }}
                 </div>

@@ -1,0 +1,50 @@
+.as-bottom {
+	position: relative;
+	width: 175px;
+	margin: 124px auto;
+	padding-bottom: 124px;
+}
+
+.as-title {
+	position: relative;
+	text-align: center;
+	font-size: 80px;
+	color: $color_white;
+	font-weight: bold;
+	margin-top: 212px;
+	&:before {
+		content: '';
+		height: 72px;
+		width: 2px;
+		position: absolute;
+		bottom: 128px;
+		left: 50%;
+		transform: translate(-50%);
+		background-color: $color_grey;
+	}
+	&:after {
+    	content: url(../img/arrow.png);
+    	position: absolute;
+    	bottom: -40px;
+    	left: 50%;
+    	transform: translate(-50%);
+    }
+}
+
+.as-subtitle {
+	text-align: center;
+	color: $color_white;
+	font-weight: bold;
+	font-size: 40px;
+	width: $size_inner_as;
+	margin: 140px auto 0;
+}
+
+.as-description {
+	text-align: center;
+	color: $color_white;
+	font-size: 40px;
+	margin-top: 110px;
+	width: $size_inner_as;
+	margin: 110px auto 0;
+}

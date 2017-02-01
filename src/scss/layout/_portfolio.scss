@@ -1,0 +1,156 @@
+.portfolio {
+	padding-bottom: 45px;
+}
+
+.portfolio-bg {
+	padding-top: 866px;
+	position: relative;
+	margin-top: 128px;
+	background-color: $color_grey;
+	padding-bottom: 125px;
+}
+
+.icon-cancel {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: $color_white;
+	font-size: 30px;
+}
+
+.portfolio-title {
+	text-transform: uppercase;
+	color: $color_purple;
+	font-size: 80px;
+	letter-spacing: 26px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.portfolio-subtitle {
+	font-size: 20px;
+	font-weight: lighter;
+	color: $color_white;
+	text-align: center;
+	margin-top: 47px;
+	margin-bottom: 110px;
+}
+
+.portfolio-list {
+	width: $size_inner_div;
+	margin: 0 auto;
+	padding-bottom: 518px;
+}
+
+.portfolio-item {
+	height: 402px;
+	position: relative;
+	&:before {
+    	content: '';
+    	position: absolute;
+    	height: 200px;
+    	width: 2px;
+    	top: -48px;
+    	left: 50%;
+		transform: translate(-50%);
+		background-color: $color_grey;
+		z-index: 10;
+    }
+}
+
+.second {
+	top: 154px;
+	&:before {
+		top: -126px;
+	}
+}
+
+.third {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	top: 343px;
+	&:before {
+		top: -137px;
+	}
+}
+
+.media-container {
+	position: absolute;
+	height: 100%;
+	width: 612px;
+	background-color: $color_black;
+	display: block;
+	.first & {
+		top: 0;
+		left: 0;
+	}
+	.second & {
+		top: 0;
+		right: 0;
+	}
+}
+
+.text-container {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 184px;
+	.first & {
+		top: 166px;
+    	right: 15px;
+	}
+	.second & {
+		top: 166px;
+		left: 0;
+		z-index: 10;
+	}
+}
+
+.media-title {
+	font-size: 90px;
+	color: $color_purple;
+	font-weight: bold;
+	.second & {
+		padding-left: 60px;
+	}
+}
+
+.media-description {
+	font-size: 18px;
+	color: $color_white;
+	.right & {
+		padding-left: 106px;	
+		position: absolute;
+	    bottom: 0;
+	    right: -104px;
+	    width: 563px;
+	}
+	.left & {
+		width: 456px;
+	}
+}
+
+.black-block {
+	height: 408px;
+	width: 542px;
+	background-color: $color_black;
+	display: block;
+}
+
+.bottom-portfolio {
+	height: 114px;
+	width: 412px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.portfolio-share {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: $color_white;
+	font-weight: bold;
+}
+

@@ -1,17 +1,11 @@
-/* ==========================================================================
-   Webfonts
-   ========================================================================== */
-
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-
-  @font-face {
+@font-face {
   font-family: 'social-icons';
-  src: url('./fonts/social-icons.eot?92159494');
-  src: url('./fonts/social-icons.eot?92159494#iefix') format('embedded-opentype'),
-       url('./fonts/social-icons.woff2?92159494') format('woff2'),
-       url('./fonts/social-icons.woff?92159494') format('woff'),
-       url('./fonts/social-icons.ttf?92159494') format('truetype'),
-       url('./fonts/social-icons.svg?92159494#social-icons') format('svg');
+  src: url('../font/social-icons.eot?11097648');
+  src: url('../font/social-icons.eot?11097648#iefix') format('embedded-opentype'),
+       url('../font/social-icons.woff2?11097648') format('woff2'),
+       url('../font/social-icons.woff?11097648') format('woff'),
+       url('../font/social-icons.ttf?11097648') format('truetype'),
+       url('../font/social-icons.svg?11097648#social-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }

@@ -18,9 +18,12 @@
                     <h2 class="as-title">about us</h2>
                     <p class="as-subtitle">Donec nisl nisi, tincidunt nec dui et, auctor posuere tellus. Integer nec lorem iaculis, dapibus odio a, cursus ex. Mauris nec orci purus. Morbi iaculis id neque vitae placerat. Sed et malesuada diam. </p>
                     <p class="as-description">Nam scelerisque felis sit amet maximus interdum. Pellentesque vehicula neque lacinia dui auctor, a finibus lacus luctus. Cras nec augue ut velit sollicitudin lobortis. Nulla id tempus lectus. Nam metus diam, porttitor pellentesque vestibulum non, euismod a augue. Mauris condimentum rutrum lectus, et ultricies neque vulputate a. Aliquam maximus metus in lorem fringilla consectetur.</p>
+                    <div class="as-bottom">
+                        {{ p_socials.render() }}
+                    </div>
                 </section>
 
-                {{ p_socials.render() }}
+                
             </div>
         </div>
 

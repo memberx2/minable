@@ -110,11 +110,14 @@
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
-	margin-top: 236px;
 	width: 100%;
 	height: 75px;
 	margin-bottom: 65px;
 	position: relative;
+}
+
+.bottom-index {
+	margin-top: 236px;
 }
 
 .showcase-link {
