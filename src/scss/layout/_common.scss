@@ -1,3 +1,11 @@
-.l-inner {
-    @extend %helper--inner;
+.bg {
+	background-color: $color_black;
+	max-width: 1600px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.inner {
+	width: $size_inner;
+	margin: 0 auto;
 }
