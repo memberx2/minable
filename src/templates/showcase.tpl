@@ -18,7 +18,12 @@
                 {{ l_header.render() }}
                 {{ l_hero.render() }}
                 {{ l_gallery.render() }}
-                {{ p_socials.render() }}
+                <div class="bottom-line">
+                    <div class="gallery-inner">
+                        <a class="load-more-link" href="portfolio.html">load more</a>
+                    </div>
+                    {{ p_socials.render() }}
+                </div>
             </div>
         </div>
 

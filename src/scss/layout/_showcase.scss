@@ -1,0 +1,93 @@
+.showcase {
+	margin-top: 404px;
+}
+
+.showcase-title {
+	font-size: 80px;
+	color: $color_white;
+	text-align: center;
+	position: relative;
+	&:before {
+		content: '';
+		height: 150px;
+		width: 2px;
+		position: absolute;
+		bottom: 128px;
+		left: 50%;
+		transform: translate(-50%);
+		background-color: $color_grey;
+	}
+	&:after {
+    	content: url(../img/arrow.png);
+    	position: absolute;
+    	bottom: -40px;
+    	left: 50%;
+    	transform: translate(-50%);
+    }
+}
+
+.gallery {
+	width: $size_inner_div;
+	margin: 0 auto;
+}
+
+.gallery-active {
+	background-color: $color_light_grey;
+	height: 350px;
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 138px;
+	margin-top: 100px;
+}
+
+.gallery-title {
+	color: $color_white;
+	font-size: 50px;
+	height: 50px;
+	margin-bottom: 25px;
+	.gallery-active & {
+		color: $color_purple;
+	}
+}
+
+.details-link {
+	font-size: 20px;
+	font-weight: normal;
+	position: relative;
+	width: 146px;
+	height: 20px;
+	&:after {
+    	content: url(../img/right-arrow.png);
+    	position: absolute;
+    	right: -32px;
+    	top: 50%;
+    	transform: translateY(-50%);
+    }
+}
+
+.gallery-item {
+	height: 140px;
+	padding-top: 50px;
+}
+
+.gallery-photo {
+	display: block;
+}
+
+.load-more-link {
+	color: $color_purple;
+	font-size: 25px;
+	position: relative;
+	&:after {
+    	content: url(../img/purple-arrow.png);
+    	position: absolute;
+    	bottom: -60px;
+    	left: 50%;
+    	transform: translate(-50%);
+    }
+}
+
+
+
+
+
