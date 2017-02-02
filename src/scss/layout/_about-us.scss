@@ -10,6 +10,7 @@
     letter-spacing: -4.3px;
 
     color: $color_white;
+
     @include media ('<=phone') {
         font-size: 72px;
     }
@@ -48,25 +49,35 @@
     letter-spacing: -2px;
 
     color: $color_white;
+
     @include media ('<=phone') {
         width: 310px;
+
         font-size: 22px;
+    }
+    @include media ('>phone','<=tablet') {
+        width: 680px;
     }
 }
 
 .as-description {
     width: $size_inner_as;
     margin: 98px auto 0;
-    line-height: 41.9px;
 
     font-size: 40px;
+    line-height: 41.9px;
 
     text-align: center;
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
 
     color: $color_white;
+
     @include media ('<=phone') {
         width: 310px;
+
         font-size: 22px;
+    }
+    @include media ('>phone','<=tablet') {
+        width: 680px;
     }
 }

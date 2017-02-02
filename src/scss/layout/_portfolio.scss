@@ -15,6 +15,9 @@
         width: 310px;
         padding: 439px 0 194px;
     }
+    @include media ('>phone','<=tablet') {
+        width: 680px;
+    }
 }
 
 .icon-cancel {
@@ -68,6 +71,9 @@
     @include media ('<=phone') {
         width: 310px;
     }
+    @include media ('>phone','<=tablet') {
+        width: 680px;
+    }
 }
 
 .portfolio-item {
@@ -93,6 +99,9 @@
 
             height: 147px;
         }
+        @include media ('>phone','<=tablet') {
+            left: 12%;
+        }
     }
 }
 
@@ -105,6 +114,9 @@
             top: -75px;
             left: 90%;
         }
+        @include media ('>phone','<=tablet') {
+            left: 88%;
+        }
     }
 }
 
@@ -115,7 +127,7 @@
     flex-direction: row;
 
     justify-content: space-between;
-    @include media ('<=phone') {
+    @include media ('<=tablet') {
         flex-direction: column;
 
         height: 850px;
@@ -125,6 +137,9 @@
 
         @include media ('<=phone') {
             top: 342px;
+        }
+        @include media ('>phone','<=tablet') {
+            top: 295px;
         }
     }
 }
@@ -149,6 +164,11 @@
         @include media ('<=phone') {
             left: 5px;
         }
+        @include media ('>phone','<=tablet') {
+            left: 50%;
+
+            transform: translate(-50%);
+        }
     }
     .second & {
         top: 0;
@@ -156,6 +176,11 @@
 
         @include media ('<=phone') {
             right: 5px;
+        }
+        @include media ('>phone','<=tablet') {
+            left: 50%;
+
+            transform: translate(-50%);
         }
     }
 }
@@ -185,6 +210,9 @@
         @include media ('<=phone') {
             top: 128px;
         }
+        @include media ('>phone','<=tablet') {
+            top: 34px;
+        }
     }
 }
 
@@ -208,6 +236,12 @@
         @include media ('<=phone') {
             padding: 0;
         }
+        @include media ('>phone','<=tablet') {
+            position: relative;
+            right: 101px;
+
+            text-align: right;
+        }
     }
 }
 
@@ -226,10 +260,17 @@
         padding-left: 106px;
 
         @include media ('<=phone') {
-            right: -24px;
+            right: 0;
 
             width: 310px;
             padding: 0;
+        }
+        @include media ('>phone','<=tablet') {
+            right: -94px;
+
+            padding: 0;
+
+            font-size: 20px;
         }
     }
     .left & {
@@ -241,9 +282,18 @@
 
         @include media ('<=phone') {
             bottom: -44px;
-            left: -13px;
+            left: 0;
 
             width: 310px;
+        }
+        @include media ('>phone','<=tablet') {
+            bottom: -110px;
+
+            width: 538px;
+
+            font-size: 20px;
+
+            text-align: right;
         }
     }
 }
@@ -258,6 +308,9 @@
 
     @include media ('<=phone') {
         width: 300px;
+        margin: 0 auto;
+    }
+    @include media ('>phone','<=tablet') {
         margin: 0 auto;
     }
 }

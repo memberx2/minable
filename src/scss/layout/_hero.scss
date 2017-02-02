@@ -138,7 +138,7 @@
         font-size: 46px;
         line-height: 45px;
     }
-    @include media ('<=tablet') {
+    @include media ('>phone','<=tablet') {
         width: 382px;
         height: 278px;
     }
@@ -166,7 +166,7 @@
     font-size: 19px;
 
     color: $color_purple;
-    @include media ('<=tablet') {
+    @include media ('>phone','<=tablet') {
         font-size: 25px;
     }
 }
