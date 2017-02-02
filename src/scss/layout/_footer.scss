@@ -19,6 +19,12 @@
     letter-spacing: -1.5px;
 
     color: $color_white;
+
+    @include media ('<=phone') {
+        left: 50%;
+
+        transform: translate(-50%);
+    }
     &:after {
         position: absolute;
         bottom: 4px;
@@ -48,6 +54,11 @@
 
 .footer-showcase {
     margin-bottom: 95px;
+
+    @include media ('<=phone') {
+        margin-bottom: 138px;
+        padding-top: 91px;
+    }
 }
 
 /* ==========================================================================

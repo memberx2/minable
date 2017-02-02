@@ -5,16 +5,25 @@
 
     border-radius: 15px;
     background-color: $color_black;
+    @include media ('<=tablet') {
+        margin: 80px auto;
+    }
 }
 
 .inner {
     width: $size_inner;
     margin: 0 auto;
+    @include media ('<=phone') {
+        width: 300px;
+    }
 }
 
 .gallery-inner {
     width: $size_inner_text;
     margin: 0 auto;
+    @include media ('<=phone') {
+        width: 280px;
+    }
 }
 
 .alt-text {

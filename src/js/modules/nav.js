@@ -1,13 +1,14 @@
-/*import $ from 'jquery'
+import $ from 'jquery'
 
 const Nav = {
   	init: function () {
-  		$('.nav-link').on('click', function () {
-  			$(this).addClass('active');
+  		$('.trigger').on('click', function () {
+  			$(this).toggleClass('opened');
+  			$('.header-nav').toggleClass('opened');
   		});
   	}
 }
 
 $(document).ready(function () {
     Nav.init()
-})*/
+})

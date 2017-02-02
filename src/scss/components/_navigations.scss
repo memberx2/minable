@@ -10,6 +10,31 @@
     margin-top: 95px;
 
     justify-content: space-between;
+    @include media ('<=phone') {
+        display: none;
+        &.opened {
+            position: fixed;
+            z-index: 10;
+            top: 144px;
+            left: 0;
+
+            display: block;
+
+            width: 100%;
+            padding: 10px 0;
+
+            background-color: rgba(0,0,0,0.9);
+        }
+    }
+}
+
+.header-nav-item {
+    @include media ('<=phone') {
+        position: relative;
+        left: 66px;
+
+        padding: 13px 0;
+    }
 }
 
 .nav-link {
@@ -17,6 +42,10 @@
     font-weight: bold;
 
     color: $color_white;
+
+    @include media ('<=phone') {
+        font-size: 28px;
+    }
 }
 
 .active {
@@ -26,4 +55,8 @@
     font-size: 22px;
 
     color: $color_purple;
+
+    @include media ('<=phone') {
+        font-size: 32px;
+    }
 }

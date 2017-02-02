@@ -2,12 +2,20 @@
     margin-top: 235px;
 
     font-weight: bold;
+
+    @include media ('<=phone') {
+        margin-top: 178px;
+    }
 }
 
 .hero-subtitle {
     font-size: 50px;
 
     color: $color_white;
+
+    @include media ('<=phone') {
+        font-size: 38px;
+    }
 }
 
 .hero-container {
@@ -15,6 +23,9 @@
     flex-direction: row;
 
     justify-content: space-between;
+    @include media ('<=phone') {
+        flex-direction: column;
+    }
 }
 
 .hero-ruler {
@@ -22,6 +33,12 @@
     flex-direction: row;
 
     justify-content: space-between;
+    @include media ('<=phone') {
+        width: 112px;
+        margin-top: 100px;
+
+        align-self: flex-end;
+    }
 }
 
 .hero-ruler-lines {
@@ -111,6 +128,16 @@
 
     color: $color_white;
     border-right: 5px solid $color_purple;
+
+    @include media ('<=phone') {
+        top: 10px;
+
+        width: 100%;
+        height: 154px;
+
+        font-size: 46px;
+        line-height: 45px;
+    }
     &:after {
         position: absolute;
         bottom: -25px;

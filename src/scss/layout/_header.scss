@@ -6,3 +6,65 @@
 
     justify-content: space-between;
 }
+
+.trigger {
+    display: none;
+
+    @include media ('<=phone') {
+        position: relative;
+        top: 100px;
+        right: 11px;
+
+        display: block;
+
+        width: 60px;
+        height: 6px;
+
+        background-color: $color_white;
+        &.opened {
+        	position: fixed;
+        	top: 181px;
+            transition: background .7s;
+
+            background-color: transparent;
+            &:before {
+                top: 0;
+
+                transform: rotate(-45deg);
+
+                background-color: $color_purple;
+            }
+            &:after {
+                top: 0;
+
+                transform: rotate(45deg);
+
+                background-color: $color_purple;
+            }
+        }
+        &:before {
+            position: absolute;
+            top: -20px;
+            left: 0;
+
+            width: 60px;
+            height: 6px;
+
+            content: '';
+
+            background-color: $color_white;
+        }
+        &:after {
+            position: absolute;
+            top: 20px;
+            left: 0;
+
+            width: 60px;
+            height: 6px;
+
+            content: '';
+
+            background-color: $color_white;
+        }
+    }
+}
