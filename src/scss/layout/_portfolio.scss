@@ -46,7 +46,8 @@
     @include media ('<=phone') {
         font-size: 47px;
 
-        letter-spacing: 24px;
+        letter-spacing: 19px;
+        width: 96%;
     }
 }
 
