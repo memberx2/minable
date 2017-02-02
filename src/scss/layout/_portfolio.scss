@@ -15,8 +15,8 @@
         width: 310px;
         padding: 439px 0 194px;
     }
-    @include media ('>phone','<=tablet') {
-        width: 680px;
+    @include media ('>phone','<=1366px') {
+        width: 90%;
     }
 }
 

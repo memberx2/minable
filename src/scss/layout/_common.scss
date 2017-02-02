@@ -19,6 +19,9 @@
     @include media ('>phone','<=tablet') {
         width: 680px;
     }
+    @include media ('>tablet','<=1366px') {
+        width: 1280px;
+    }
 }
 
 .gallery-inner {
