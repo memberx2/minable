@@ -10,6 +10,10 @@
     letter-spacing: -4.6px;
 
     color: $color_white;
+
+    @include media ('<=phone') {
+        font-size: 72px;
+    }
     &:before {
         position: absolute;
         top: -115px;
@@ -41,6 +45,10 @@
     text-align: center;
 
     color: $color_white;
+
+    @include media ('<=phone') {
+        font-size: 22px;
+    }
 }
 
 .email {
@@ -52,4 +60,8 @@
     letter-spacing: -2.1px;
 
     color: $color_white;
+
+    @include media ('<=phone') {
+        font-size: 22px;
+    }
 }

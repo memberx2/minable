@@ -16,6 +16,14 @@
 
         transform: translate(-37%);
     }
+    .footer & {
+        @include media ('<=phone') {
+            top: 0;
+            left: 50%;
+
+            transform: translate(-50%);
+        }
+    }
     .footer-portfolio & {
         top: 95px;
         left: 50%;

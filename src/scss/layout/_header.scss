@@ -10,7 +10,7 @@
 .trigger {
     display: none;
 
-    @include media ('<=phone') {
+    @include media ('<=tablet') {
         position: relative;
         top: 100px;
         right: 11px;
@@ -22,8 +22,11 @@
 
         background-color: $color_white;
         &.opened {
-        	position: fixed;
-        	top: 181px;
+            position: fixed;
+            z-index: 10;
+            top: 181px;
+            right: 45px;
+
             transition: background .7s;
 
             background-color: transparent;

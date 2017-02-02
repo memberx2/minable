@@ -10,6 +10,9 @@
     letter-spacing: -4.3px;
 
     color: $color_white;
+    @include media ('<=phone') {
+        font-size: 72px;
+    }
     &:before {
         position: absolute;
         top: -113px;
@@ -45,6 +48,10 @@
     letter-spacing: -2px;
 
     color: $color_white;
+    @include media ('<=phone') {
+        width: 310px;
+        font-size: 22px;
+    }
 }
 
 .as-description {
@@ -58,4 +65,8 @@
     letter-spacing: 0.5px;
 
     color: $color_white;
+    @include media ('<=phone') {
+        width: 310px;
+        font-size: 22px;
+    }
 }

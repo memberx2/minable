@@ -74,6 +74,10 @@
     margin-top: 77px;
 
     text-align: center;
+
+    @include media ('<=phone') {
+        width: 310px;
+    }
 }
 
 .portfolio-share {
@@ -84,6 +88,10 @@
     text-transform: uppercase;
 
     color: $color_white;
+
+    @include media ('<=phone') {
+        letter-spacing: 3px;
+    }
 }
 
 /* ==========================================================================
