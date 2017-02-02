@@ -1,22 +1,24 @@
 .bg {
-	background-color: $color_black;
-	max-width: 1600px;
-	height: 100%;
-	margin: 142px auto;
-	border-radius: 15px;
+    max-width: 1600px;
+    height: 100%;
+    margin: 142px auto;
+
+    border-radius: 15px;
+    background-color: $color_black;
 }
 
 .inner {
-	width: $size_inner;
-	margin: 0 auto;
+    width: $size_inner;
+    margin: 0 auto;
 }
 
 .gallery-inner {
-	width: $size_inner_text;
-	margin: 0 auto;
+    width: $size_inner_text;
+    margin: 0 auto;
 }
 
 .alt-text {
     display: block;
+
     text-indent: -9998em;
 }

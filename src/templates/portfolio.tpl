@@ -14,18 +14,18 @@
         {% import "partials/socials.tpl" as p_socials %}
 
         <div class="bg">
-            <div class="inner">
-                {{ l_header.render() }}
+            <div class="inner port">
+                {{ l_header.render(active_no='2') }}
                 <section class="portfolio">
                     <div class="portfolio-bg">
                         <a class="icon-cancel" href="showcase.html"></a>
                         {{ p_header.render() }}
                         {{ p_portfolio_gallery.render() }}
                         {{ p_header.render() }}
-                        <div class="bottom-portfolio">
+                        <footer class="footer-portfolio">
                             <p class="portfolio-share">share this work</p>
                             {{ p_socials.render() }}
-                        </div>
+                        </footer>
                     </div>
                 </section>               
             </div>

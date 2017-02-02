@@ -12,15 +12,15 @@
         {% import "partials/socials.tpl" as p_socials %}
 
         <div class="bg">
-            <div class="inner">
-                {{ l_header.render() }}
+            <div class="inner cont">
+                {{ l_header.render(active_no='3') }}
                 <section class="contact">
                     <h2 class="contact-title">contact</h2>
                     <p class="number">+90 539 330 300 00</p>
                     <p class="email">contact@signakro.com</p>
-                    <div class="as-bottom">
+                    <footer class="footer">
                         {{ p_socials.render() }}
-                    </div>
+                    </footer>
                 </section>
             </div>
         </div>

@@ -14,16 +14,16 @@
         {% import "partials/socials.tpl" as p_socials %}
 
         <div class="bg">
-            <div class="inner">
-                {{ l_header.render() }}
+            <div class="inner show">
+                {{ l_header.render(active_no='2') }}
                 {{ l_hero.render() }}
                 {{ l_gallery.render() }}
-                <div class="bottom-line bottom-showcase">
+                <footer class="footer-line footer-showcase">
                     <div class="gallery-inner">
                         <a class="load-more-link" href="portfolio.html">load more</a>
                     </div>
                     {{ p_socials.render() }}
-                </div>
+                </footer>
             </div>
         </div>
 

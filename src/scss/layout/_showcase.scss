@@ -1,97 +1,104 @@
 .showcase {
-	margin-top: 404px;
+    margin-top: 404px;
 }
 
 .showcase-title {
-	font-size: 80px;
-	color: $color_white;
-	text-align: center;
-	position: relative;
-	&:before {
-		content: '';
-		height: 150px;
-		width: 2px;
-		position: absolute;
-		bottom: 128px;
-		left: 50%;
-		transform: translate(-50%);
-		background-color: $color_grey;
-	}
-	&:after {
-    	content: url(../img/arrow.png);
-    	position: absolute;
-    	bottom: -40px;
-    	left: 50%;
-    	transform: translate(-50%);
+    position: relative;
+
+    font-size: 80px;
+
+    text-align: center;
+
+    color: $color_white;
+    &:before {
+        position: absolute;
+        bottom: 128px;
+        left: 50%;
+
+        width: 2px;
+        height: 150px;
+
+        content: '';
+        transform: translate(-50%);
+
+        background-color: $color_grey;
+    }
+    &:after {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+
+        content: url(../img/arrow.png);
+        transform: translate(-50%);
     }
 }
 
 .gallery {
-	width: $size_inner_div;
-	margin: 0 auto;
+    width: $size_inner_div;
+    margin: 0 auto;
 }
 
 .gallery-active {
-	background-color: $color_light_grey;
-	height: 350px;
-	width: 100%;
-	border-radius: 10px;
-	padding-top: 138px;
-	margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    padding-top: 138px;
+
+    border-radius: 10px;
+    background-color: $color_light_grey;
 }
 
 .gallery-title {
-	color: $color_white;
-	font-size: 50px;
-	height: 50px;
-	margin-bottom: 25px;
-	.gallery-active & {
-		color: $color_purple;
-	}
+    height: 50px;
+    margin-bottom: 25px;
+
+    font-size: 50px;
+
+    color: $color_white;
+    .gallery-active & {
+        color: $color_purple;
+    }
 }
 
 .details-link {
-	font-size: 20px;
-	font-weight: normal;
-	position: relative;
-	width: 146px;
-	height: 20px;
-	&:after {
-    	content: url(../img/right-arrow.png);
-    	position: absolute;
-    	right: -32px;
-    	top: 50%;
-    	transform: translateY(-50%);
+    position: relative;
+
+    width: 146px;
+    height: 20px;
+
+    font-size: 20px;
+    font-weight: normal;
+    &:after {
+        position: absolute;
+        top: 50%;
+        right: -32px;
+
+        content: url(../img/right-arrow.png);
+        transform: translateY(-50%);
     }
 }
 
 .gallery-item {
-	height: 140px;
-	padding-top: 50px;
+    height: 140px;
+    padding-top: 50px;
 }
 
 .gallery-photo {
-	display: block;
+    display: block;
 }
 
 .load-more-link {
-	color: $color_purple;
-	font-size: 25px;
-	position: relative;
-	&:after {
-    	content: url(../img/purple-arrow.png);
-    	position: absolute;
-    	bottom: -60px;
-    	left: 50%;
-    	transform: translate(-50%);
+    position: relative;
+
+    font-size: 25px;
+
+    color: $color_purple;
+    &:after {
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+
+        content: url(../img/purple-arrow.png);
+        transform: translate(-50%);
     }
 }
-
-.bottom-showcase {
-	margin-top: 58px;
-}
-
-
-
-
-

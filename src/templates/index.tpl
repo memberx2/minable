@@ -13,13 +13,13 @@
         {% import "partials/socials.tpl" as p_socials %}
 
         <div class="bg">
-            <div class="inner">
-                {{ l_header.render() }}
+            <div class="inner index">
+                {{ l_header.render(active_no='2') }}
                 {{ l_hero.render() }}
-                <div class="bottom-line bottom-index">
+                <footer class="footer-line footer-index">
                     <a class="showcase-link" href="showcase.html">view showcase</a>
                     {{ p_socials.render() }}
-                </div>
+                </footer>
             </div>
         </div>
 

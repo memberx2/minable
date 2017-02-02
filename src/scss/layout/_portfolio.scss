@@ -1,156 +1,166 @@
 .portfolio {
-	padding-bottom: 45px;
+    padding-bottom: 45px;
 }
 
 .portfolio-bg {
-	padding-top: 866px;
-	position: relative;
-	margin-top: 128px;
-	background-color: $color_grey;
-	padding-bottom: 125px;
+    position: relative;
+
+    margin-top: 128px;
+    padding-top: 866px;
+    padding-bottom: 125px;
+
+    background: linear-gradient(to bottom, #000000 0%,#2c2c2c 25%,#2e2e2e 100%);
 }
 
 .icon-cancel {
-	position: absolute;
-	top: 0;
-	right: 0;
-	color: $color_white;
-	font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    font-size: 30px;
+
+    color: $color_white;
 }
 
 .portfolio-title {
-	text-transform: uppercase;
-	color: $color_purple;
-	font-size: 80px;
-	letter-spacing: 26px;
-	text-align: center;
-	font-weight: bold;
+    font-size: 80px;
+    font-weight: bold;
+
+    text-align: center;
+    letter-spacing: 26px;
+    text-transform: uppercase;
+
+    color: $color_purple;
 }
 
 .portfolio-subtitle {
-	font-size: 20px;
-	font-weight: lighter;
-	color: $color_white;
-	text-align: center;
-	margin-top: 47px;
-	margin-bottom: 110px;
+    margin-top: 47px;
+    margin-bottom: 110px;
+
+    font-size: 20px;
+    font-weight: lighter;
+
+    text-align: center;
+
+    color: $color_white;
 }
 
 .portfolio-list {
-	width: $size_inner_div;
-	margin: 0 auto;
-	padding-bottom: 518px;
+    width: $size_inner_div;
+    margin: 0 auto;
+    padding-bottom: 518px;
 }
 
 .portfolio-item {
-	height: 402px;
-	position: relative;
-	&:before {
-    	content: '';
-    	position: absolute;
-    	height: 200px;
-    	width: 2px;
-    	top: -48px;
-    	left: 50%;
-		transform: translate(-50%);
-		background-color: $color_grey;
-		z-index: 10;
+    position: relative;
+
+    height: 402px;
+    &:before {
+        position: absolute;
+        z-index: 10;
+        top: -48px;
+        left: 50%;
+
+        width: 2px;
+        height: 200px;
+
+        content: '';
+        transform: translate(-50%);
+
+        background-color: $color_grey;
     }
 }
 
 .second {
-	top: 154px;
-	&:before {
-		top: -126px;
-	}
+    top: 154px;
+    &:before {
+        top: -126px;
+    }
 }
 
 .third {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	top: 343px;
-	&:before {
-		top: -137px;
-	}
+    top: 343px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    &:before {
+        top: -137px;
+    }
 }
 
 .media-container {
-	position: absolute;
-	height: 100%;
-	width: 612px;
-	background-color: $color_black;
-	display: block;
-	.first & {
-		top: 0;
-		left: 0;
-	}
-	.second & {
-		top: 0;
-		right: 0;
-	}
+    position: absolute;
+
+    display: block;
+
+    width: 612px;
+    height: 100%;
+
+    background-color: $color_black;
+    .first & {
+        top: 0;
+        left: 0;
+    }
+    .second & {
+        top: 0;
+        right: 0;
+    }
 }
 
 .text-container {
-	position: absolute;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	height: 184px;
-	.first & {
-		top: 166px;
-    	right: 15px;
-	}
-	.second & {
-		top: 166px;
-		left: 0;
-		z-index: 10;
-	}
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 184px;
+
+    justify-content: space-between;
+    .first & {
+        top: 166px;
+        right: 15px;
+    }
+    .second & {
+        z-index: 10;
+        top: 166px;
+        left: 0;
+    }
 }
 
 .media-title {
-	font-size: 90px;
-	color: $color_purple;
-	font-weight: bold;
-	.second & {
-		padding-left: 60px;
-	}
+    font-size: 90px;
+    font-weight: bold;
+
+    color: $color_purple;
+    .second & {
+        padding-left: 60px;
+    }
 }
 
 .media-description {
-	font-size: 18px;
-	color: $color_white;
-	.right & {
-		padding-left: 106px;	
-		position: absolute;
-	    bottom: 0;
-	    right: -104px;
-	    width: 563px;
-	}
-	.left & {
-		width: 456px;
-	}
+    font-size: 18px;
+
+    color: $color_white;
+    .right & {
+        position: absolute;
+        right: -104px;
+        bottom: 0;
+
+        width: 563px;
+        padding-left: 106px;
+    }
+    .left & {
+        width: 456px;
+    }
 }
 
 .black-block {
-	height: 408px;
-	width: 542px;
-	background-color: $color_black;
-	display: block;
-}
+    display: block;
 
-.bottom-portfolio {
-	height: 114px;
-	width: 412px;
-	margin: 0 auto;
-	position: relative;
-	text-align: center;
-}
+    width: 542px;
+    height: 408px;
 
-.portfolio-share {
-	text-transform: uppercase;
-	font-size: 24px;
-	color: $color_white;
-	font-weight: bold;
+    background-color: $color_black;
 }
-
