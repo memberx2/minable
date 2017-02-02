@@ -26,8 +26,7 @@
                 </footer>
             </div>
         </div>
-
-        
+      
         <script src="./static/js/app.js"></script>
     </body>
 </html>
