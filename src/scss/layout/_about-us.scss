@@ -1,20 +1,21 @@
 .as-title {
     position: relative;
 
-    margin-top: 212px;
+    margin-top: 188px;
 
     font-size: 80px;
     font-weight: bold;
 
     text-align: center;
+    letter-spacing: -4.3px;
 
     color: $color_white;
     &:before {
         position: absolute;
-        bottom: 128px;
+        top: -113px;
         left: 50%;
 
-        width: 2px;
+        width: 1px;
         height: 72px;
 
         content: '';
@@ -24,7 +25,7 @@
     }
     &:after {
         position: absolute;
-        bottom: -40px;
+        bottom: -56px;
         left: 50%;
 
         content: url(../img/arrow.png);
@@ -34,24 +35,27 @@
 
 .as-subtitle {
     width: $size_inner_as;
-    margin: 140px auto 0;
+    margin: 110px auto 0;
 
     font-size: 40px;
-    font-weight: bold;
+    font-weight: normal;
+    line-height: 49px;
 
     text-align: center;
+    letter-spacing: -2px;
 
     color: $color_white;
 }
 
 .as-description {
     width: $size_inner_as;
-    margin: 110px auto 0;
-    margin-top: 110px;
+    margin: 98px auto 0;
+    line-height: 41.9px;
 
     font-size: 40px;
 
     text-align: center;
+    letter-spacing: 0.5px;
 
     color: $color_white;
 }

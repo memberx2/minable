@@ -5,17 +5,17 @@
 .portfolio-bg {
     position: relative;
 
-    margin-top: 128px;
-    padding-top: 866px;
-    padding-bottom: 125px;
+    width: $inner_bg;
+    margin: 122px auto 0;
+    padding: 844px 0 194px;
 
-    background: linear-gradient(to bottom, #000000 0%,#2c2c2c 55%,#2e2e2e 100%);
+    background: linear-gradient(to bottom, #000 0%,#2c2c2c 55%,#2e2e2e 100%);
 }
 
 .icon-cancel {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 46px;
 
     font-size: 30px;
 
@@ -23,24 +23,27 @@
 }
 
 .portfolio-title {
+    position: relative;
+    left: 16px;
+
     font-size: 80px;
     font-weight: bold;
 
     text-align: center;
-    letter-spacing: 26px;
+    letter-spacing: 41px;
     text-transform: uppercase;
 
     color: $color_purple;
 }
 
 .portfolio-subtitle {
-    margin-top: 47px;
-    margin-bottom: 110px;
+    margin-top: 15px;
 
     font-size: 20px;
     font-weight: lighter;
 
     text-align: center;
+    letter-spacing: -1px;
 
     color: $color_white;
 }
@@ -48,7 +51,8 @@
 .portfolio-list {
     width: $size_inner_div;
     margin: 0 auto;
-    padding-bottom: 518px;
+    margin-top: 110px;
+    padding-bottom: 485px;
 }
 
 .portfolio-item {
@@ -120,7 +124,7 @@
     justify-content: space-between;
     .first & {
         top: 166px;
-        right: 15px;
+        right: 55px;
     }
     .second & {
         z-index: 10;
@@ -134,24 +138,35 @@
     font-weight: bold;
 
     color: $color_purple;
+    .first & {
+        letter-spacing: -3.9px;
+    }
     .second & {
         padding-left: 60px;
+
+        letter-spacing: -4.6px;
     }
 }
 
 .media-description {
     font-size: 18px;
 
+    letter-spacing: -.8px;
+
     color: $color_white;
     .right & {
         position: absolute;
-        right: -104px;
-        bottom: 0;
+        right: -149px;
+        bottom: 8px;
 
         width: 563px;
         padding-left: 106px;
     }
     .left & {
+        position: absolute;
+        bottom: -8px;
+        left: 10px;
+
         width: 456px;
     }
 }

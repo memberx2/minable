@@ -8,13 +8,16 @@
 	right: 0;
 	transform: translateY(-50%);
 	.footer-portfolio & {
-		top: 85px;
+		top: 95px;
 		left: 50%;
 		transform: translate(-50%);
+	}
+	.footer-showcase & {
+		top: 18px;
 	}
 }
 
 .socials-link {
 	color: $color_purple;
-	font-size: 15px;
+	font-size: 18px;
 }

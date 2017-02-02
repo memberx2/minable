@@ -1,17 +1,18 @@
 .contact-title {
     position: relative;
 
-    margin-top: 212px;
+    margin-top: 188px;
 
     font-size: 80px;
     font-weight: bold;
 
     text-align: center;
+    letter-spacing: -4.6px;
 
     color: $color_white;
     &:before {
         position: absolute;
-        bottom: 128px;
+        top: -115px;
         left: 50%;
 
         width: 2px;
@@ -24,7 +25,7 @@
     }
     &:after {
         position: absolute;
-        bottom: -40px;
+        bottom: -55px;
         left: 50%;
 
         content: url(../img/arrow.png);
@@ -33,7 +34,7 @@
 }
 
 .number {
-    margin-top: 156px;
+    margin-top: 112px;
 
     font-size: 40px;
 
@@ -43,11 +44,12 @@
 }
 
 .email {
-    margin-top: 58px;
+    margin-top: 33px;
 
     font-size: 40px;
 
     text-align: center;
+    letter-spacing: -2.1px;
 
     color: $color_white;
 }

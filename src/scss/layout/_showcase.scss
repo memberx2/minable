@@ -1,5 +1,5 @@
 .showcase {
-    margin-top: 404px;
+    margin-top: 375px;
 }
 
 .showcase-title {
@@ -8,11 +8,12 @@
     font-size: 80px;
 
     text-align: center;
+    letter-spacing: -5.4px;
 
     color: $color_white;
     &:before {
         position: absolute;
-        bottom: 128px;
+        bottom: 155px;
         left: 50%;
 
         width: 2px;
@@ -25,7 +26,7 @@
     }
     &:after {
         position: absolute;
-        bottom: -40px;
+        bottom: -56px;
         left: 50%;
 
         content: url(../img/arrow.png);
@@ -35,14 +36,13 @@
 
 .gallery {
     width: $size_inner_div;
-    margin: 0 auto;
+    margin: 129px auto 89px;
 }
 
 .gallery-active {
     width: 100%;
     height: 350px;
-    margin-top: 100px;
-    padding-top: 138px;
+    padding-top: 122px;
 
     border-radius: 10px;
     background-color: $color_light_grey;
@@ -50,13 +50,18 @@
 
 .gallery-title {
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 51px;
 
     font-size: 50px;
 
+    letter-spacing: -1.7px;
+
     color: $color_white;
     .gallery-active & {
+        letter-spacing: -.8px;
+
         color: $color_purple;
+        margin-bottom: 20px;
     }
 }
 
@@ -79,8 +84,8 @@
 }
 
 .gallery-item {
-    height: 140px;
-    padding-top: 50px;
+    height: 181px;
+    padding-top: 85px;
 }
 
 .gallery-photo {

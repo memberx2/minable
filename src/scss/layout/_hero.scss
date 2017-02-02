@@ -1,5 +1,5 @@
 .hero {
-    margin-top: 255px;
+    margin-top: 235px;
 
     font-weight: bold;
 }
@@ -99,18 +99,22 @@
 
 .hero-title {
     position: relative;
+    top: -8px;
 
-    width: 978px;
+    width: 890px;
     height: 100px;
 
     font-size: 75px;
+    line-height: 96px;
+
+    letter-spacing: -3.2px;
 
     color: $color_white;
     border-right: 5px solid $color_purple;
     &:after {
         position: absolute;
         bottom: -25px;
-        left: 30px;
+        left: 35px;
 
         width: 20px;
         height: 2px;
@@ -126,9 +130,9 @@
 }
 
 .hero-description {
-    margin-top: 40px;
+    margin-top: 29px;
 
-    font-size: 20px;
+    font-size: 19px;
 
     color: $color_purple;
 }
