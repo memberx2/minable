@@ -56,6 +56,9 @@
     @include media ('>phone','<=tablet') {
         width: 680px;
     }
+    @include media ('>tablet','<=1300px') {
+        width: 1024px;
+    }
 }
 
 .gallery-active {

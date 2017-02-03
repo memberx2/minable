@@ -19,7 +19,10 @@
     @include media ('>phone','<=tablet') {
         width: 680px;
     }
-    @include media ('>tablet','<=1366px') {
+    @include media ('>tablet','<=1300px') {
+        width: 1024px;
+    }
+    @include media ('>1300px','<=1366px') {
         width: 1280px;
     }
 }
@@ -32,6 +35,9 @@
     }
     @include media ('>phone','<=tablet') {
         width: 620px;
+    }
+    @include media ('>tablet','<=1300px') {
+        width: 920px;
     }
 
 }
