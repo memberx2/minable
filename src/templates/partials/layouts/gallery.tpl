@@ -1,7 +1,7 @@
 {% macro render() %}
     <section class="showcase">
     	<h2 class="showcase-title">showcase</h2>
-        <a href="#gallery" class="showcase-arrow"><img src="./src/img/arrow.png" alt=""></a>
+        <a href="#gallery" class="link-arrow"><img src="./src/img/arrow.png" alt=""></a>
     	<ul class="gallery">
         <a name="gallery"></a>
     		<li class="gallery-active" id="gallery">

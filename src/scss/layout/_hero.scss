@@ -28,6 +28,9 @@
 .swiper-container-vertical > .swiper-pagination-bullets {
     top: 23% !important;
     right: 0 !important;
+    @include media ('<=phone') {
+        top: 78% !important;
+    }
 }
 
 .swiper-pagination-bullet {
@@ -123,6 +126,9 @@
 
     color: $color_purple;
 
+@include media ('<=phone') {
+        margin-top: 72px;
+    }
     @include media ('>phone','<=tablet') {
         font-size: 25px;
     }

@@ -106,7 +106,7 @@
     }
 }
 
-.second {
+.portfolio-item-ui {
     top: 154px;
     &:before {
         top: -126px;
@@ -121,7 +121,7 @@
     }
 }
 
-.third {
+.portfolio-item-blocks {
     top: 343px;
 
     display: flex;
@@ -158,7 +158,7 @@
     @include media ('<=phone') {
         width: 300px;
     }
-    .first & {
+    .portfolio-item-web & {
         top: 0;
         left: 0;
 
@@ -171,7 +171,7 @@
             transform: translate(-50%);
         }
     }
-    .second & {
+    .portfolio-item-ui & {
         top: 0;
         right: 0;
 
@@ -195,7 +195,7 @@
     height: 184px;
 
     justify-content: space-between;
-    .first & {
+    .portfolio-item-web & {
         top: 166px;
         right: 55px;
 
@@ -203,7 +203,7 @@
             right: 0;
         }
     }
-    .second & {
+    .portfolio-item-ui & {
         z-index: 10;
         top: 166px;
         left: 0;
@@ -226,10 +226,10 @@
     @include media ('<=phone') {
         font-size: 50px;
     }
-    .first & {
+    .portfolio-item-web & {
         letter-spacing: -3.9px;
     }
-    .second & {
+    .portfolio-item-ui & {
         padding-left: 60px;
 
         letter-spacing: -4.6px;
@@ -252,7 +252,7 @@
     letter-spacing: -.8px;
 
     color: $color_white;
-    .right & {
+    .text-container-right & {
         position: absolute;
         right: -149px;
         bottom: 8px;
@@ -274,7 +274,7 @@
             font-size: 20px;
         }
     }
-    .left & {
+    .text-container-left & {
         position: absolute;
         bottom: -8px;
         left: 10px;

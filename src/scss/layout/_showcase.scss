@@ -1,5 +1,9 @@
 .showcase {
     margin-top: 375px;
+
+    @include media ('<=phone') {
+        margin-top: 245px;
+    }
 }
 
 .showcase-title {
@@ -34,13 +38,6 @@
     }
 }
 
-.showcase-arrow {
-    position: relative;
-    left: 49.6%;
-    transform: translate(-50%);
-    top: 12px;
-}
-
 .gallery {
     width: $size_inner_div;
     margin: 129px auto 89px;
@@ -63,6 +60,7 @@
 
     border-radius: 10px;
     background-color: $color_light_grey;
+
     @include media ('<=phone') {
         padding-top: 165px;
     }
@@ -127,6 +125,7 @@
     font-size: 25px;
 
     color: $color_purple;
+
     @include media ('<=phone') {
         left: 28%;
     }

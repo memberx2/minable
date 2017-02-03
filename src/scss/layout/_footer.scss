@@ -6,7 +6,11 @@
     Index.html
    ========================================================================== */
 
-
+.footer-index {
+    @include media ('>phone','<=tablet') {
+        margin-top: 224px;
+    }
+}
 
 .showcase-link {
     position: relative;
