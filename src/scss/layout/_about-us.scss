@@ -27,14 +27,6 @@
 
         background-color: $color_grey;
     }
-    &:after {
-        position: absolute;
-        bottom: -56px;
-        left: 50%;
-
-        content: url(../img/arrow.png);
-        transform: translate(-50%);
-    }
 }
 
 .as-subtitle {

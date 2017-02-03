@@ -32,18 +32,13 @@
             bottom: 84px;
         }
     }
-    &:after {
-        position: absolute;
-        bottom: -56px;
-        left: 50%;
+}
 
-        content: url(../img/arrow.png);
-        transform: translate(-50%);
-
-        @include media ('<=phone') {
-            bottom: -42px;
-        }
-    }
+.showcase-arrow {
+    position: relative;
+    left: 49.6%;
+    transform: translate(-50%);
+    top: 12px;
 }
 
 .gallery {
