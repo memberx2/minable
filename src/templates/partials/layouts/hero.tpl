@@ -1,20 +1,32 @@
-{% macro render() %}
+{% macro render(active_no='') %}
     <section class="hero">
-    	<h2 class="hero-subtitle">Hello,</h2>
-        <div class="hero-container">
-        	<h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
-        	<div class="hero-ruler">
-        		<p class="hero-number">01</p>
-        		<ul class="hero-ruler-lines">
-        			<li class="hero-ruler-line">
-        				<span class="active-line"></span>
-        			</li>
-        			<li class="hero-ruler-line short-line">
-        				<span class="line"></span>
-        			</li>
-        		</ul>
-        	</div>
-        </div>
-    	<p class="hero-description">Go Project</p>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h2 class="hero-subtitle">Hello,</h2>
+                	<h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <p class="hero-description">Go Project</p> 
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="hero-subtitle">Hello,</h2>
+                    <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <p class="hero-description">Go Project</p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="hero-subtitle">Hello,</h2>
+                    <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <p class="hero-description">Go Project</p>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="hero-subtitle">Hello,</h2>
+                    <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <p class="hero-description">Go Project</p>
+                </div>
+            </div>
+            
+            <div class="swiper-pagination">
+            <span class="pagination-number">01</span>
+            </div>
+        </div> 	
     </section>
 {% endmacro %}
