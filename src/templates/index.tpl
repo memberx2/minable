@@ -14,7 +14,7 @@
 
         <div class="bg">
             <div class="inner index">
-                {{ l_header.render(active_no='2') }}
+                {{ l_header.render() }}
                 {{ l_hero.render() }}
                 <footer class="footer-line footer-index">
                     <a class="showcase-link" href="showcase.html">view showcase</a>
@@ -24,6 +24,7 @@
         </div>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="./static/js/swiper.jquery.min.js"></script>
+        <script src="./static/js/typed.min.js"></script>
         <script src="./static/js/app.js"></script>
 
     </body>

@@ -26,7 +26,10 @@
                 </footer>
             </div>
         </div>
-      
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="./static/js/swiper.jquery.min.js"></script>
+        <script src="./static/js/typed.min.js"></script>
+        <script src="./static/js/app.js"></script>
         <script src="./static/js/app.js"></script>
     </body>
 </html>

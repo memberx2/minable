@@ -31,24 +31,32 @@
     <section class="hero">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide">           
                     <h2 class="hero-subtitle">Hello,</h2>
-                	<h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <div class="typed-container">
+                    	<h1 class="hero-title"><span>We are a</span> <span class="hero-title-span">Creative Studio</span></h1>
+                    </div>
                     <p class="hero-description">Go Project</p> 
                 </div>
                 <div class="swiper-slide">
                     <h2 class="hero-subtitle">Hello,</h2>
-                    <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <div class="typed-container">
+                        <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    </div>
                     <p class="hero-description">Go Project</p>
                 </div>
                 <div class="swiper-slide">
                     <h2 class="hero-subtitle">Hello,</h2>
-                    <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <div class="typed-container">
+                        <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    </div>
                     <p class="hero-description">Go Project</p>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide">    
                     <h2 class="hero-subtitle">Hello,</h2>
-                    <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    <div class="typed-container">
+                        <h1 class="hero-title">We are a <span class="hero-title-span">Creative Studio</span></h1>
+                    </div>
                     <p class="hero-description">Go Project</p>
                 </div>
             </div>
@@ -62,37 +70,42 @@
                 
     <section class="showcase">
     	<h2 class="showcase-title">showcase</h2>
-        <a href="#gallery" class="link-arrow"><img src="./src/img/arrow.png" alt=""></a>
+        <a href="#gallery" class="link-arrow"><img src="./src/img/arrow.png" alt="arrow image"></a>
     	<ul class="gallery">
         <a name="gallery"></a>
-    		<li class="gallery-active" id="gallery">
+    		<li class="gallery-item" id="gallery">
                 <div class="gallery-inner">
     	    		<h2 class="gallery-title">Horse Arena</h2>
     	    		<a class="details-link" href="#">view details</a>
+                    <span class="gallery-hover-shape"></span>
                 </div>
     		</li>
     		<li class="gallery-item">
                 <div class="gallery-inner">
     	    		<h2 class="gallery-title">Mountains</h2>
-    	    		<img class="gallery-photo" src="./src/img/small.png" alt=""/>
+                    <a class="details-link" href="#">view details</a>
+    	    		<span class="gallery-hover-shape"></span>
                 </div>
     		</li>
     		<li class="gallery-item">
                 <div class="gallery-inner">
     	    		<h2 class="gallery-title">Hexagon</h2>
-    	    		<img class="gallery-photo" src="./src/img/small.png" alt=""/>
+                    <a class="details-link" href="#">view details</a>
+    	    		<span class="gallery-hover-shape"></span>
                 </div>
     		</li>
     		<li class="gallery-item">
                 <div class="gallery-inner">
     	    		<h2 class="gallery-title">Likable</h2>
-    	    		<img class="gallery-photo" src="./src/img/small.png" alt=""/>
+                    <a class="details-link" href="#">view details</a>
+    	    		<span class="gallery-hover-shape"></span>
                 </div>
     		</li>
     		<li class="gallery-item">
                 <div class="gallery-inner">
     	    		<h2 class="gallery-title">Pierre Lock</h2>
-    	    		<img class="gallery-photo" src="./src/img/small.png" alt=""/>
+                    <a class="details-link" href="#">view details</a>
+    	    		<span class="gallery-hover-shape"></span>
                 </div>
     		</li>
 		</ul>
@@ -105,23 +118,27 @@
                     
     <ul class="socials">
     	<li class="socials-item">
-    		<a class="socials-link social-icon icon-facebook" href="https://www.facebook.com/"></a>
+    		<a class="socials-link social-icon icon-facebook" href="https://www.facebook.com/"><span class="alt-text">Facebook</span></a>
     	</li>
     	<li class="socials-item">
-    		<a class="socials-link social-icon icon-twitter" href="https://twitter.com/"></a>
+    		<a class="socials-link social-icon icon-twitter" href="https://twitter.com/"><span class="alt-text">Twitter</span></a>
     	</li>
     	<li class="socials-item">
-    		<a class="socials-link social-icon icon-gplus" href="https://plus.google.com/"></a>
+    		<a class="socials-link social-icon icon-gplus" href="https://plus.google.com/"><span class="alt-text">Google Plus</span></a>
     	</li>
     	<li class="socials-item">
-    		<a class="socials-link social-icon icon-linkedin" href="https://linkedin.com/"></a>
+    		<a class="socials-link social-icon icon-linkedin" href="https://linkedin.com/"><span class="alt-text">Linkedin</span></a>
+
     	</li>
     </ul>
 
                 </footer>
             </div>
         </div>
-      
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="./static/js/swiper.jquery.min.js"></script>
+        <script src="./static/js/typed.min.js"></script>
+        <script src="./static/js/app.js"></script>
         <script src="./static/js/app.js"></script>
     </body>
 </html>
