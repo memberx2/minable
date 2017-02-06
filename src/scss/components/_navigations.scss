@@ -43,6 +43,9 @@
     font-weight: bold;
 
     color: $color_white;
+    &:hover {
+        color: $color_light_purple;
+    }
 
     @include media ('<=tablet') {
         font-size: 28px;
