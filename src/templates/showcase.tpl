@@ -12,8 +12,6 @@
         {% import "partials/layouts/hero.tpl" as l_hero %}
         {% import "partials/layouts/gallery.tpl" as l_gallery %}
         {% import "partials/socials.tpl" as p_socials %}
-
-        <div class="bg">
             <div class="inner show">
                 {{ l_header.render(active_no='2') }}
                 {{ l_hero.render() }}
@@ -25,7 +23,6 @@
                     {{ p_socials.render() }}
                 </footer>
             </div>
-        </div>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="./static/js/swiper.jquery.min.js"></script>
         <script src="./static/js/typed.min.js"></script>

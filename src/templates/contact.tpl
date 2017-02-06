@@ -10,8 +10,6 @@
     <body>
         {% import "partials/layouts/header.tpl" as l_header %}
         {% import "partials/socials.tpl" as p_socials %}
-
-        <div class="bg">
             <div class="inner cont">
                 {{ l_header.render(active_no='3') }}
                 <section class="contact">
@@ -24,7 +22,6 @@
                     </footer>
                 </section>
             </div>
-        </div>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="./static/js/swiper.jquery.min.js"></script>
         <script src="./static/js/typed.min.js"></script>
