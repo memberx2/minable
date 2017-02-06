@@ -10,10 +10,9 @@
    ========================================================================== */
 @import "node_modules/include-media/dist/_include-media";
 
-/* Flex Helpers
+/* Swiper
    ========================================================================== */
-// @import "node_modules/flex-helpers/flex-helpers";
-
+@import "node_modules/swiper/dist/css/swiper";
 /* Base
    ========================================================================== */
 @import "base/reset";
@@ -68,7 +67,10 @@
    ========================================================================== */
 // @import "vendor/";
 
+
 /* Custom Grid Classes CSS
    Do not remove this - it's used in production build
    ========================================================================== */
 // @import "custom-classes";
+
+

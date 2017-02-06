@@ -30,7 +30,7 @@
 }
 
 .as-subtitle {
-    width: $size_inner_as;
+    width: 100%;
     margin: 110px auto 0;
 
     font-size: 40px;
@@ -42,18 +42,13 @@
 
     color: $color_white;
 
-    @include media ('<=phone') {
-        width: 310px;
-
-        font-size: 22px;
-    }
-    @include media ('>phone','<=tablet') {
-        width: 680px;
+    @include media ('<=tablet') {
+        padding: 0 5px;
     }
 }
 
 .as-description {
-    width: $size_inner_as;
+    width: 100%;
     margin: 98px auto 0;
 
     font-size: 40px;
@@ -64,12 +59,7 @@
 
     color: $color_white;
 
-    @include media ('<=phone') {
-        width: 310px;
-
-        font-size: 22px;
-    }
-    @include media ('>phone','<=tablet') {
-        width: 680px;
+   @include media ('<=tablet') {
+        padding: 0 5px;
     }
 }
