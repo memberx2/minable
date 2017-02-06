@@ -7,28 +7,28 @@
                     <div class="typed-container">
                     	<h1 class="hero-title"></h1>
                     </div>
-                    <p class="hero-description">Go Project</p> 
+                    <a href="portfolio.html" class="hero-description">Go Project</a> 
                 </div>
                 <div class="swiper-slide">
                     <h2 class="hero-subtitle">Hello,</h2>
                     <div class="typed-container">
                         <h1 class="hero-title"></h1>
                     </div>
-                    <p class="hero-description">Go Project</p>
+                    <a href="portfolio.html" class="hero-description">Go Project</a>
                 </div>
                 <div class="swiper-slide">
                     <h2 class="hero-subtitle">Hello,</h2>
                     <div class="typed-container">
                         <h1 class="hero-title"></h1>
                     </div>
-                    <p class="hero-description">Go Project</p>
+                   <a href="portfolio.html" class="hero-description">Go Project</a>
                 </div>
                 <div class="swiper-slide">    
                     <h2 class="hero-subtitle">Hello,</h2>
                     <div class="typed-container">
                         <h1 class="hero-title"></h1>
                     </div>
-                    <p class="hero-description">Go Project</p>
+                    <a href="portfolio.html" class="hero-description">Go Project</a>
                 </div>
             </div>
             

@@ -4,6 +4,46 @@
 
 /* Layout oriented helpers
    ========================================================================== */
+
+.alt-text {
+    display: block;
+
+    text-indent: -9998em;
+    display: none;
+}
+
+.inner {
+    width: $size_inner;
+    margin: 0 auto;
+    @include media ('<=1366px') {
+        width: 100%;
+        padding: 0 5%;
+    }
+}
+
+.gallery-inner {
+    width: $size_inner_text;
+    margin: 0 auto;
+    @include media ('<=1365px') {
+        width: 90%;
+    }
+}
+
+.portfolio-bg {
+    position: relative;
+
+    width: 90%;
+    margin: 122px auto 0;
+    padding: 844px 0 194px;
+
+    background: linear-gradient(to bottom, #000 0%,#2c2c2c 55%,#2e2e2e 100%);
+
+    @include media ('<=phone') {
+        width: 90vw;
+        padding: 439px 0 194px;
+    }
+}
+   
 %helper--inner {
     width: 100%;
     max-width: $size_inner;

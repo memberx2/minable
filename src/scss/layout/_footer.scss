@@ -12,34 +12,6 @@
     }
 }
 
-.showcase-link {
-    position: relative;
-
-    font-size: 26px;
-    font-weight: bold;
-
-    letter-spacing: -1.5px;
-
-    color: $color_white;
-    &:hover {
-        color: $color_light_purple;
-    }
-
-    @include media ('<=phone') {
-        left: 50%;
-
-        transform: translate(-50%);
-    }
-    &:after {
-        position: absolute;
-        bottom: 4px;
-        left: 50%;
-
-        content: url(../img/arrow.png);
-        transform: translate(-50%);
-    }
-}
-
 .footer-line {
     position: relative;
 
@@ -82,20 +54,6 @@
 
     @include media ('<=phone') {
         width: 310px;
-    }
-}
-
-.portfolio-share {
-    font-size: 24px;
-    font-weight: bold;
-
-    letter-spacing: 12px;
-    text-transform: uppercase;
-
-    color: $color_white;
-
-    @include media ('<=phone') {
-        letter-spacing: 3px;
     }
 }
 

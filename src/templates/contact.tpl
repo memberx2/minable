@@ -14,7 +14,7 @@
                 {{ l_header.render(active_no='3') }}
                 <section class="contact">
                     <h2 class="contact-title">contact</h2>
-                    <img class="link-arrow" src="./src/img/arrow.png" alt="arrow image"/>                   
+                    <span class="link-arrow icon-down-small"></span>                   
                     <p id="scroll" class="number">+90 539 330 300 00</p>
                     <p class="email">contact@signakro.com</p>
                     <footer class="footer footer-contact">
@@ -26,6 +26,5 @@
         <script src="./static/js/swiper.jquery.min.js"></script>
         <script src="./static/js/typed.min.js"></script>
         <script src="./static/js/app.js"></script>       
-        <script src="./static/js/app.js"></script>
     </body>
 </html>

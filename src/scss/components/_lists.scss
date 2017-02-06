@@ -1,0 +1,123 @@
+.portfolio-list {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding: 0 10px;
+    padding-bottom: 485px;
+}
+
+.portfolio-item {
+    position: relative;
+
+    height: 402px;
+    &:before {
+        position: absolute;
+        z-index: 10;
+        top: -48px;
+        left: 50%;
+
+        width: 2px;
+        height: 200px;
+
+        content: '';
+        transform: translate(-50%);
+
+        background-color: $color_grey;
+
+        @include media ('<=phone') {
+            left: 10%;
+
+            height: 147px;
+        }
+        @include media ('>phone','<=tablet') {
+            left: 12%;
+        }
+    }
+}
+
+.portfolio-item-ui {
+    top: 154px;
+    &:before {
+        top: -126px;
+
+        @include media ('<=phone') {
+            top: -75px;
+            left: 90%;
+        }
+        @include media ('>phone','<=tablet') {
+            left: 88%;
+        }
+    }
+}
+
+.portfolio-item-blocks {
+    top: 343px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    @include media ('<=tablet') {
+        flex-direction: column;
+
+        height: 850px;
+
+        align-items: center;
+    }
+    &:before {
+        top: -137px;
+
+        @include media ('<=phone') {
+            top: 342px;
+        }
+        @include media ('>phone','<=tablet') {
+            top: 295px;
+        }
+    }
+}
+
+.gallery {
+    width: $size_inner_div;
+    margin: 129px auto 89px;
+
+    @include media ('<=1365px') {
+        width: 80vw;
+    }
+}
+
+.gallery-item {
+    height: 181px;
+    padding-top: 85px;
+    &:hover {
+        width: 100%;
+        height: 350px;
+        margin-top: 91px;
+        padding-top: 122px;
+
+        transition: 1s;
+
+        border-radius: 10px;
+        background-color: $color_light_grey;
+        & .gallery-title {
+            margin-bottom: 20px;
+
+            letter-spacing: -.8px;
+
+            color: $color_purple;
+        }
+        & .details-link {
+            position: relative;
+
+            visibility: visible;
+
+            width: 146px;
+            height: 20px;
+
+            font-size: 20px;
+            font-weight: normal;
+        }
+        & .gallery-hover-shape {
+            visibility: hidden;
+        }
+    }
+}

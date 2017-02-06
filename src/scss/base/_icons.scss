@@ -18,3 +18,33 @@
 }
 */
 
+.icon-cancel {
+    position: absolute;
+    top: 0;
+    right: 46px;
+
+    font-size: 30px;
+
+    color: $color_white;
+}
+
+.icon-right-small {
+    right: 0;
+}
+
+.icon-down-small {
+    .load-more-link & {
+        position: absolute;
+        bottom: -46px;
+        left: 50%;
+
+        transform: translate(-50%);
+    }
+    .showcase-link & {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+
+        transform: translate(-50%);
+    }
+}

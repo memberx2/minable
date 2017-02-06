@@ -9,16 +9,14 @@
     </head>
     <body>
         {% import "partials/layouts/header.tpl" as l_header %}
-        {% import "partials/layouts/hero.tpl" as l_hero %}
         {% import "partials/layouts/gallery.tpl" as l_gallery %}
         {% import "partials/socials.tpl" as p_socials %}
             <div class="inner show">
                 {{ l_header.render(active_no='2') }}
-                {{ l_hero.render() }}
                 {{ l_gallery.render() }}
                 <footer class="footer-line footer-showcase">
                     <div class="gallery-inner">
-                        <a class="load-more-link" href="portfolio.html">load more</a>
+                        <a class="load-more-link" href="portfolio.html">load more<span class="icon-down-small"></span></a>
                     </div>
                     {{ p_socials.render() }}
                 </footer>
@@ -26,7 +24,6 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="./static/js/swiper.jquery.min.js"></script>
         <script src="./static/js/typed.min.js"></script>
-        <script src="./static/js/app.js"></script>
         <script src="./static/js/app.js"></script>
     </body>
 </html>

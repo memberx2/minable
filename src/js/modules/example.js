@@ -1,6 +1,6 @@
 const Example = {
-  init: function () {
+    init: function() {
 
-  }
+    }
 }
 Example.init()

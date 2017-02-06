@@ -1,3 +1,69 @@
 /* ==========================================================================
    Links
    ========================================================================== */
+
+.link-arrow {
+    position: relative;
+    top: 12px;
+    left: 48.4%;
+
+    font-size: 20px;
+
+    cursor: pointer;
+    transform: translate(-50%);
+
+    color: white;
+}
+
+.showcase-link {
+    position: relative;
+
+    font-size: 26px;
+    font-weight: bold;
+
+    letter-spacing: -1.5px;
+
+    color: $color_white;
+
+    @include media ('<=phone') {
+        left: 50%;
+
+        transform: translate(-50%);
+    }
+    &:hover {
+        color: $color_light_purple;
+    }
+}
+
+.portfolio-share {
+    font-size: 24px;
+    font-weight: bold;
+
+    letter-spacing: 12px;
+    text-transform: uppercase;
+
+    color: $color_white;
+
+    @include media ('<=phone') {
+        letter-spacing: 3px;
+    }
+}
+
+.details-link {
+    visibility: hidden;
+}
+
+.load-more-link {
+    position: relative;
+
+    font-size: 25px;
+
+    color: $color_purple;
+
+    @include media ('<=phone') {
+        left: 28%;
+    }
+    &:hover {
+        color: $color_light_purple;
+    }
+}

@@ -33,6 +33,5 @@
         <script src="./static/js/swiper.jquery.min.js"></script>
         <script src="./static/js/typed.min.js"></script>
         <script src="./static/js/app.js"></script>
-        <script src="./static/js/app.js"></script>
     </body>
 </html>

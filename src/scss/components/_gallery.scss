@@ -1,0 +1,31 @@
+.gallery-title {
+    height: 50px;
+    margin-bottom: 51px;
+
+    font-size: 50px;
+
+    letter-spacing: -1.7px;
+
+    color: $color_white;
+
+    @include media ('<=phone') {
+        font-size: 37px;
+    }
+}
+
+.gallery-hover-shape {
+    position: relative;
+    top: -33px;
+    left: 3px;
+
+    display: block;
+
+    width: 30px;
+    height: 46px;
+
+    background-color: $color_dark_grey;
+}
+
+.gallery-photo {
+    display: block;
+}

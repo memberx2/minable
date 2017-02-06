@@ -4,14 +4,14 @@
 
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-  @font-face {
-  font-family: 'social-icons';
-  src: url('./fonts/social-icons.eot?92159494');
-  src: url('./fonts/social-icons.eot?92159494#iefix') format('embedded-opentype'),
-       url('./fonts/social-icons.woff2?92159494') format('woff2'),
-       url('./fonts/social-icons.woff?92159494') format('woff'),
-       url('./fonts/social-icons.ttf?92159494') format('truetype'),
-       url('./fonts/social-icons.svg?92159494#social-icons') format('svg');
+ @font-face {
+  font-family: 'custom-icons';
+  src: url('../fonts/custom-icons.eot?48592896');
+  src: url('../fonts/custom-icons.eot?48592896#iefix') format('embedded-opentype'),
+       url('../fonts/custom-icons.woff2?48592896') format('woff2'),
+       url('../fonts/custom-icons.woff?48592896') format('woff'),
+       url('../fonts/custom-icons.ttf?48592896') format('truetype'),
+       url('../fonts/custom-icons.svg?48592896#custom-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -20,14 +20,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'social-icons';
-    src: url('../font/social-icons.svg?11097648#social-icons') format('svg');
+    font-family: 'custom-icons';
+    src: url('../font/custom-icons.svg?48592896#custom-icons') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "social-icons";
+  font-family: "custom-icons";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -62,6 +62,8 @@
 }
  
 .icon-cancel:before { content: '\e800'; } /* '' */
+.icon-down-small:before { content: '\e801'; } /* '' */
+.icon-right-small:before { content: '\e802'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
 .icon-facebook:before { content: '\f30c'; } /* '' */
 .icon-gplus:before { content: '\f30f'; } /* '' */

@@ -1,0 +1,168 @@
+.media-container {
+    position: absolute;
+
+    display: block;
+
+    width: 612px;
+    height: 100%;
+
+    background-color: $color_black;
+
+    @include media ('<=phone') {
+        width: 100%;
+    }
+    .portfolio-item-web & {
+        top: 0;
+        left: 0;
+
+        @include media ('<=phone') {
+            left: 5px;
+        }
+        @include media ('>phone','<=tablet') {
+            left: 50%;
+
+            transform: translate(-50%);
+        }
+    }
+    .portfolio-item-ui & {
+        top: 0;
+        right: 0;
+
+        @include media ('<=phone') {
+            right: 5px;
+        }
+        @include media ('>phone','<=tablet') {
+            left: 50%;
+
+            transform: translate(-50%);
+        }
+    }
+}
+
+.text-container {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 184px;
+
+    justify-content: space-between;
+    .portfolio-item-web & {
+        top: 166px;
+        right: 55px;
+
+        @include media ('<=phone') {
+            right: 0;
+        }
+    }
+    .portfolio-item-ui & {
+        z-index: 10;
+        top: 166px;
+        left: 0;
+
+        @include media ('<=phone') {
+            top: 128px;
+        }
+        @include media ('>phone','<=tablet') {
+            top: 34px;
+        }
+    }
+}
+
+.media-title {
+    font-size: 90px;
+    font-weight: bold;
+
+    color: $color_purple;
+
+    @include media ('<=phone') {
+        font-size: 50px;
+    }
+    .portfolio-item-web & {
+        letter-spacing: -3.9px;
+    }
+    .portfolio-item-ui & {
+        padding-left: 60px;
+
+        letter-spacing: -4.6px;
+
+        @include media ('<=phone') {
+            padding: 0;
+        }
+        @include media ('>phone','<=tablet') {
+            position: relative;
+            right: 101px;
+
+            text-align: right;
+        }
+    }
+}
+
+.media-description {
+    font-size: 18px;
+
+    letter-spacing: -.8px;
+
+    color: $color_white;
+    .text-container-right & {
+        position: absolute;
+        right: -56px;
+        bottom: 8px;
+
+        width: 542px;
+        padding-left: 106px;
+
+        @include media ('<=phone') {
+            right: 0;
+
+            width: 310px;
+            padding: 0;
+        }
+        @include media ('>phone','<=tablet') {
+            right: -94px;
+
+            padding: 0;
+
+            font-size: 20px;
+        }
+    }
+    .text-container-left & {
+        position: absolute;
+        bottom: -8px;
+        left: 10px;
+
+        width: 456px;
+
+        @include media ('<=phone') {
+            bottom: -44px;
+            left: 0;
+
+            width: 310px;
+        }
+        @include media ('>phone','<=tablet') {
+            bottom: -110px;
+
+            width: 538px;
+
+            font-size: 20px;
+
+            text-align: right;
+        }
+    }
+}
+
+.black-block {
+    display: block;
+
+    width: 542px;
+    height: 408px;
+
+    background-color: $color_black;
+
+    @include media ('<=phone') {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}

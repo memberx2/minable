@@ -16,7 +16,7 @@
                 {{ l_header.render() }}
                 {{ l_hero.render() }}
                 <footer class="footer-line footer-index">
-                    <a class="showcase-link" href="showcase.html">view showcase</a>
+                    <a class="showcase-link" href="showcase.html">view showcase<span class="icon-down-small"></span></a>
                     {{ p_socials.render() }}
                 </footer>
             </div>
@@ -24,6 +24,5 @@
         <script src="./static/js/swiper.jquery.min.js"></script>
         <script src="./static/js/typed.min.js"></script>
         <script src="./static/js/app.js"></script>
-
     </body>
 </html>

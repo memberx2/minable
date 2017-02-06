@@ -1,0 +1,118 @@
+.swiper-container {
+    width: 100%;
+    max-height: 465px;
+
+    background-color: black;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-container-vertical > .swiper-pagination-bullets {
+    top: 23% !important;
+    right: 0 !important;
+    width: 60px;
+
+    @include media ('<=phone') {
+        top: 78% !important;
+    }
+}
+
+.swiper-pagination-bullet {
+    position: relative;
+    right: 0 !important;
+
+    width: 30px !important;
+    height: 30px !important;
+    margin: 0 !important;
+
+    line-height: 30px !important;
+
+    opacity: 1 !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    &:hover {
+        width: 40px !important;
+        right: 10px !important;
+    }
+    &:after {
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        width: 100%;
+        height: 2px;
+
+        content: '';
+        transform: translateY(-50%);
+
+        background-color: $color_white !important;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    position: relative;
+    right: 23px !important;
+
+    width: 54px !important;
+
+    background-color: transparent !important;
+    &:hover {
+        width: 60px !important;
+        right: 30px !important;
+        .pagination-number {
+            right: 75px;
+        }
+    }
+    &:after {
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        width: 100%;
+        height: 2px;
+
+        content: '';
+        transform: translateY(-50%);
+
+        background-color: $color_purple !important;
+    }
+}
+
+.pagination-number {
+    visibility: hidden;
+    .swiper-pagination-bullet-active & {
+        position: absolute;
+        top: 50%;
+        right: 65px;
+
+        visibility: visible;
+
+        font-size: 25px;
+        font-weight: bold;
+
+        transform: translateY(-50%);
+
+        color: $color_white;
+    }
+}
+
+.typed-cursor {
+    font-size: 140px;
+    font-weight: 100;
+
+    -webkit-animation: blink .7s infinite;
+       -moz-animation: blink .7s infinite;
+            animation: blink .7s infinite;
+
+    opacity: 1;
+    color: $color_purple;
+    @include media ('<=phone') {
+        font-size: 46px;
+    }
+    @include media ('>phone','<=tablet') {
+        font-size: 92px;
+    }
+}
