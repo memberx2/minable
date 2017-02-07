@@ -1,5 +1,6 @@
 .portfolio-list {
     width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
     margin-top: 110px;
     padding: 0 10px;
@@ -81,6 +82,7 @@
         @include media ('>940px','<=1240px') {
             top: 231px;
             left: 50%;
+
             transform: translate(-50%);
         }
     }

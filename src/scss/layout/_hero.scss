@@ -43,7 +43,7 @@
         font-size: 46px;
         line-height: 45px;
     }
-    @include media ('>phone','<=tablet') {
+    @include media ('>phone','<=1088px') {
         width: 382px;
         height: 278px;
     }
