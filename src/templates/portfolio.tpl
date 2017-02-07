@@ -18,7 +18,6 @@
             </div>           
             <section class="portfolio">
                 <div class="portfolio-bg">
-                    <a class="icon-cancel" href="showcase.html"></a>
                     {{ p_header.render() }}
                     {{ p_portfolio_gallery.render() }}
                     {{ p_header.render() }}

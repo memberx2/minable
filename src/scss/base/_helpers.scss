@@ -34,13 +34,12 @@
 
     width: 90%;
     margin: 122px auto 0;
-    padding: 844px 0 194px;
+    padding: 68px 0 194px;
 
     background: linear-gradient(to bottom, #000 0%,#2c2c2c 55%,#2e2e2e 100%);
 
     @include media ('<=phone') {
         width: 90vw;
-        padding: 439px 0 194px;
     }
 }
    

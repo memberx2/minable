@@ -16,7 +16,7 @@
                 {{ l_gallery.render() }}
                 <footer class="footer-line footer-showcase">
                     <div class="gallery-inner">
-                        <a class="load-more-link" href="portfolio.html">load more<span class="icon-down-small"></span></a>
+                        <a class="load-more-link" href="#">load more<span class="icon-down-small"></span></a>
                     </div>
                     {{ p_socials.render() }}
                 </footer>

@@ -39,6 +39,14 @@
     }
 }
 
+.media-container-right {
+    @include media ('>940px','<=1240px') {
+        position: absolute;
+        right: 0;
+        bottom: -68%;
+    }
+}
+
 .text-container {
     position: absolute;
 
@@ -160,9 +168,9 @@
 
     background-color: $color_black;
 
-    @include media ('<=phone') {
+    @include media ('<=940px') {
         width: 100%;
-        margin: 0 auto;
+        max-width: 542px;
+        margin: 10px 0;
     }
-
 }
